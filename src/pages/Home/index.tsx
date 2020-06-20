@@ -6,7 +6,7 @@ import ServerList from '../../components/ServerList';
 import ServerName from '../../components/ServerName';
 import ChannelInfo from '../../components/ChannelInfo';
 import ChannelList from '../../components/ChannelList';
-import UserInterface from '../../components/UserInterface';
+import UserInfo from '../../components/UserInfo';
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
       <ServerName title={'Nome do Servidor'} />
       <ChannelInfo title={'Nome do Servidor'} />
       <ChannelList />
-      <UserInterface />
+      <UserInfo userName={'Antony Santos'} userCode={'9461'} />
     </Container>
   );
 };
