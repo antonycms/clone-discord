@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ExpandMore } from 'styled-icons/material';
 
 export const Container = styled.div`
   background-color: var(--secondary);
@@ -16,4 +17,11 @@ export const Container = styled.div`
     line-height: 19px;
     color: white;
   }
+`;
+
+export const ExpandIcon = styled(ExpandMore)`
+  width: 28px;
+  height: 28px;
+  color: var(--white);
+  cursor: pointer;
 `;

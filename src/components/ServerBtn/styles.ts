@@ -39,7 +39,7 @@ export const Container = styled.button<IServerBtn>`
 
     left: -17px;
 
-    display: flex;
+    display: ${(props) => (props.hasMentioned ? 'flex' : 'none')} ;
     background-color: white;
 
     width: 9px;
