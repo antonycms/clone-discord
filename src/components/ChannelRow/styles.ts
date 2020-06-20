@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin: 0 auto 9px auto;
   border-radius: 5px;
   padding: 0 8px;
+  cursor: pointer;
 
   width: 220px;
   height: 32px;
@@ -17,6 +18,12 @@ export const Container = styled.div`
     background-color: var(--quinary);
     > div span {
       color: var(--white);
+    }
+  }
+
+  &:hover {
+    h2 {
+      color: white;
     }
   }
 `;
@@ -30,7 +37,7 @@ export const Title = styled.h2`
   font-size: 15px;
   line-height: 18px;
   text-transform: lowercase;
-  color: white;
+  color: var(--symbol);
 `;
 
 export const HashtagIcon = styled(Hashtag)`

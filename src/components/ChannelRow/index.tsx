@@ -6,7 +6,7 @@ interface IChannelRow {
   title: string;
 }
 
-const ChanellRow: React.FC<IChannelRow> = ({ title }) => {
+const ChannelRow: React.FC<IChannelRow> = ({ title }) => {
   return (
     <Container>
       <ItemsContainer>
@@ -22,4 +22,4 @@ const ChanellRow: React.FC<IChannelRow> = ({ title }) => {
   );
 };
 
-export default ChanellRow;
+export default ChannelRow;
