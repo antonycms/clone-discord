@@ -4,11 +4,12 @@ import { Container, ItemsContainer, Title, HashtagIcon, InviteIcon, SettingsIcon
 
 interface IChannelRow {
   title: string;
+  active?: boolean;
 }
 
-const ChannelRow: React.FC<IChannelRow> = ({ title }) => {
+const ChannelRow: React.FC<IChannelRow> = ({ title, active }) => {
   return (
-    <Container>
+    <Container className={active ? 'active' : ''}>
       <ItemsContainer>
         <HashtagIcon />
         <Title>{title}</Title>

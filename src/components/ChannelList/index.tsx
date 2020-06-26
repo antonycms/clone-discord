@@ -12,7 +12,7 @@ const ChannelList: React.FC = () => {
       </Category>
 
       <ChannelRow title={'chat-livre'} />
-      <ChannelRow title={'chat-livre'} />
+      <ChannelRow active title={'chat-livre'} />
       <ChannelRow title={'chat-livre'} />
       <ChannelRow title={'chat-livre'} />
     </Container>

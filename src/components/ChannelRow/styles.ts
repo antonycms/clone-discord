@@ -16,12 +16,6 @@ export const Container = styled.div`
   &:hover,
   &.active {
     background-color: var(--quinary);
-    > div span {
-      color: var(--white);
-    }
-  }
-
-  &:hover {
     h2 {
       color: white;
     }
