@@ -1859,14 +1859,6 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/hoist-non-react-statics@*":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
-  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
-  dependencies:
-    "@types/react" "*"
-    hoist-non-react-statics "^3.3.0"
-
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1936,13 +1928,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@*":
-  version "0.62.13"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.13.tgz#c688c5ae03e426f927f7e1fa1a59cd067f35d1c2"
-  integrity sha512-hs4/tSABhcJx+J8pZhVoXHrOQD89WFmbs8QiDLNSA9zNrD46pityAuBWuwk1aMjPk9I3vC5ewkJroVRHgRIfdg==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react@*", "@types/react@^16.9.0":
   version "16.9.38"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.38.tgz#868405dace93a4095d3e054f4c4a1de7a1ac0680"
@@ -1956,15 +1941,13 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
 
-"@types/styled-components@^4.1.14":
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.3.tgz#74dd00ad760845a98890a8539361d8afc32059de"
-  integrity sha512-U0udeNOZBfUkJycmGJwmzun0FBt11rZy08weVQmE2xfUNAbX8AGOEWxWna2d+qAUKxKgMlcG+TZT0+K2FfDcnQ==
+"@types/styled-components@4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.0.3.tgz#8287e54e446302369eecc521243a2f32cf9122ee"
+  integrity sha512-LzntHlOKEOxUxMkVmQPNG88TsldeHO2NlwNkzHnw4wL8qhHQgd7u+u3yw84hZgoFh4ugsLCbFtjYcbP7v5WC5Q==
   dependencies:
-    "@types/hoist-non-react-statics" "*"
+    "@types/node" "*"
     "@types/react" "*"
-    "@types/react-native" "*"
-    csstype "^2.2.0"
 
 "@types/testing-library__dom@*":
   version "7.0.2"
@@ -5491,7 +5474,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0:
+hoist-non-react-statics@^3.0.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
@@ -10716,7 +10699,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^3.3.4000:
+typescript@^3.9.5:
   version "3.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
   integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==

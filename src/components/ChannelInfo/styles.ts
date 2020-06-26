@@ -3,6 +3,7 @@ import { Hashtag } from 'styled-icons/heroicons-outline';
 
 export const Container = styled.div`
   grid-area: CI;
+  z-index: 1;
 
   display: flex;
   align-items: center;

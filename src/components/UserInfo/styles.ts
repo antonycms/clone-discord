@@ -71,6 +71,7 @@ export const UserData = styled.div`
     color: #ffffff;
     opacity: 0.69;
   }
+
   span::before {
     content: '#';
     font-size: 13.5 px;
@@ -85,7 +86,9 @@ export const MicIcon = styled(Mic)`
   width: 20px;
   height: 20px;
   color: var(--symbol);
+
   cursor: pointer;
+
   &:hover {
     color: white;
   }
@@ -96,7 +99,9 @@ export const HeadSetIcon = styled(Headset)`
   height: 20px;
   color: var(--symbol);
   margin: 0 9.5px;
+
   cursor: pointer;
+
   &:hover {
     color: white;
   }
@@ -106,7 +111,9 @@ export const SettingsIcon = styled(Settings)`
   width: 20px;
   height: 20px;
   color: var(--symbol);
+
   cursor: pointer;
+
   &:hover {
     color: white;
   }

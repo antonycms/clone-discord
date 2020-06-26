@@ -8,6 +8,7 @@ import ChannelInfo from '../../components/ChannelInfo';
 import ChannelList from '../../components/ChannelList';
 import UserInfo from '../../components/UserInfo';
 import UserList from '../../components/UserList';
+import ChannelBody from '../../components/ChannelBody';
 
 const Home: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
       <ChannelList />
       <UserInfo userName={'Antony Santos'} userCode={'9461'} />
       <UserList />
+      <ChannelBody />
     </Container>
   );
 };
