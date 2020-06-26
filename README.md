@@ -16,7 +16,7 @@
 
 > Projeto Clone Discord, feito com ReactJS e Typescript.
 
-<!-- <img  align="center" src="./assets/techno-print.png"/> -->
+<img  align="center" src="./assets/print.png"/>
 
 ### 🏠 [Homepage](https://github.com/antonycms/techno)
 
